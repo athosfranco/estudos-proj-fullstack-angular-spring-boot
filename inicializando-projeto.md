@@ -18,4 +18,8 @@ Tabela 'produto'
 Tabela 'categoria_produto'
 ![image](https://user-images.githubusercontent.com/73993813/174916485-84b452f5-12a6-4111-b8c0-aa7b1df172a3.png)
 
-### 3. Desenvolver as entidades JPA
+### 3. Importar projeto no IntelliJ e editar o arquivo 'application.properties'
+
+
+
+### 4. Desenvolver as entidades JPA
