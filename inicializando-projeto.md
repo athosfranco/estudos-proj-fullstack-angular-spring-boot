@@ -54,11 +54,27 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 ### 4. Desenvolver as entidades JPA
 
-4.1. Criar package 'entities' e criar as entidades JPA (São classes com os mesmos atributos encontrados no banco de dados)
+## 4.1. Criar package 'entities' e criar as entidades JPA 
+
+Entidades são classes com os mesmos atributos encontrados no banco de dados.
 
 ![image](https://user-images.githubusercontent.com/73993813/175815882-87a56cc8-342d-4c7b-b28a-7c8d099e9d73.png)
 
-4.2. Implementar as anotações necessárias para a entidade
+## 4.2. Implementar as anotações necessárias para a entidade
 ![image](https://user-images.githubusercontent.com/73993813/175816169-d8a0f626-e425-49de-8e38-83bf93f061bf.png)
+
+***OBS: IMPORTANTE:*** Adicionar as anotações @CreationTimestamp e @UpdateTimestamp nos atributos de DataCadastro e DataAtualizacao. O Hibernate vai automaticamente criar a data na criação e atualização de cada entrada no banco de dados.
+
+## 4.3. Criar a entidade 'CategoriaProduto'
+
+![image](https://user-images.githubusercontent.com/73993813/175817714-eebb95d2-265c-4304-8621-f99857002041.png)
+
+Essa entidade possui um relacionamento avançado "OneToMany", onde teremos uma categoria para vários produtos. 
+
+É necessário estabelecer a mesma relação inversa em "Produto", desta vez, com "ManyToOne".
+
+![image](https://user-images.githubusercontent.com/73993813/175817792-481624a0-2583-4530-b73e-1d668d4fb3e3.png)
+
+### 5. Desenvolver a REST API
 
 
