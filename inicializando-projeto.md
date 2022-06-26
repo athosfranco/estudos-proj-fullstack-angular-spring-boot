@@ -77,4 +77,23 @@ Essa entidade possui um relacionamento avançado "OneToMany", onde teremos uma c
 
 ## 5. Desenvolver a REST API
 
+Primeiro, criamos uma nova package chamada 'dao' (Data Access Object). 
+
+O padrão Data Access Object (DAO) é um padrão estrutural que nos permite isolar a camada de aplicativo/negócios da camada de persistência (geralmente um banco de dados relacional, mas pode ser qualquer outro mecanismo de persistência) usando uma API abstrata.
+
+Dentro do package 'dao' vamos criar duas interfaces: ***ProdutoRepository*** e ***CategoriaProdutoRepository***. Essas interfaces vão extender o JPARepository.
+
+***Mas, o que é JPARepository?***
+
+JpaRepository é uma extensão específica do JPA. Ele contém a API completa do CrudRepository e PagingAndSortingRepository. Portanto, contém API para operações básicas de CRUD e também API para paginação e classificação.
+
+### ProdutoRepository
+
+![image](https://user-images.githubusercontent.com/73993813/175818687-64597ee9-0bc9-47ed-a716-794a1b1c99b0.png)
+
+### CategoriaProdutoRepository
+
+![image](https://user-images.githubusercontent.com/73993813/175818733-7ad8e004-5cac-4736-9869-fb185836236d.png)
+
+
 
