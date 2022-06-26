@@ -54,7 +54,11 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 ### 4. Desenvolver as entidades JPA
 
-Criar package 'entities' e criar as entidades JPA (São classes com os mesmos atributos encontrados no banco de dados)
+4.1. Criar package 'entities' e criar as entidades JPA (São classes com os mesmos atributos encontrados no banco de dados)
 
 ![image](https://user-images.githubusercontent.com/73993813/175815882-87a56cc8-342d-4c7b-b28a-7c8d099e9d73.png)
+
+4.2. Implementar as anotações necessárias para a entidade
+![image](https://user-images.githubusercontent.com/73993813/175816169-d8a0f626-e425-49de-8e38-83bf93f061bf.png)
+
 
