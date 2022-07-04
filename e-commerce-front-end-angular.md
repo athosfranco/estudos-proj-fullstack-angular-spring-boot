@@ -27,3 +27,10 @@ os componentes devem se concentrar em apresentar dados (VIEW) e delegar acessos 
 ![image](https://user-images.githubusercontent.com/73993813/177173393-e4507dd5-8ee3-4f45-89a0-cfd84d5e6e02.png)
 
 Dentro da pasta "Services" devemos criar um serviço que vai ser utilizado para buscar dados na API REST desenvolvida em Spring Boot. 
+
+Primeiro, antes de criar esse Service, vamos precisar de um módulo nativo do Angular chamado ***HttpClientModule***, que é utilizado para dar suporte a requisições HTTP. 
+Vamos importar e declarar esse módulo dentro de ***src/app.module.ts***
+
+![image](https://user-images.githubusercontent.com/73993813/177174907-800e49b6-204a-4481-bf15-360c63ed630f.png)
+
+
