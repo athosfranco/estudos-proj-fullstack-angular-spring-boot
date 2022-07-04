@@ -34,3 +34,6 @@ Vamos importar e declarar esse módulo dentro de ***src/app.module.ts***
 ![image](https://user-images.githubusercontent.com/73993813/177174907-800e49b6-204a-4481-bf15-360c63ed630f.png)
 
 
+Após isso, criamos nossa classe ***produto.service.ts*** dentro de ***src/services***.
+
+![image](https://user-images.githubusercontent.com/73993813/177176533-447e9518-18fc-40de-8251-d4b1c17ec7e9.png)
